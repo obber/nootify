@@ -1,0 +1,14 @@
+.logo.small {
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.logo.medium {
+  margin: 16px 0;
+  font-size: 26px;
+}
+
+.logo.large {
+  margin: 22px 0;
+  font-size: 32px;
+}
