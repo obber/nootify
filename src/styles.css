@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css);
+
+body {
+  margin: 0;
+  background-color: #FCFFF5;
+  color: #3E606F;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+form .ng-touched.ng-invalid {
+  outline: 1px solid #e46f6f;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+form input {
+  display: block;
+}
+
+form button {
+  display: block;
+}

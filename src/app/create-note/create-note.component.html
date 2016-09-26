@@ -1,0 +1,11 @@
+<div *ngIf="invalidErrors.length">
+  Errors!!
+</div>
+<div *ngIf="noteCreated">
+  Note successfully created.
+</div>
+<form id="create-note" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+  <input name="title" placeholder="title" ngModel required>
+  <textarea name="content" id="" cols="30" rows="10" placeholder="content" ngModel required></textarea>
+  <button>Submit</button>
+</form>
